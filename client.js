@@ -4,7 +4,8 @@ var WebSocket = require("ws/lib/WebSocket");
 
 console.log("hi there!");
 
-var connection = new sharedb.Connection(new WebSocket(), true);
+var connection = new sharedb.Connection(
+  new WebSocket("ws://localhost:8080"));
 console.log("connection:"+connection);
 var doc = connection.get("collection", "document");
 console.log("doc:"+doc);
