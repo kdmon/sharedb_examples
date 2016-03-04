@@ -8,4 +8,4 @@ npm install
 cd ../..
 browserify client.js -o static/bundle.js
 ```
-Run the server `node server` and go to `hostname/index.html`
+Run the server `node server.js` and go to `hostname/index.html`
