@@ -1,0 +1,9 @@
+{
+  "name": "sharedb_examples",
+  "version": "0.0.1",
+  "dependencies":{
+    "sharedb": "0.11.34",
+    "connect": "<3.0.0",
+    "ws": "1.0.1"
+  }
+}
