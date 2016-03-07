@@ -14,9 +14,8 @@ Run the server `node server.js` and go to `http://localhost:8080/index.html`
 ```shell
 npm install -g browserify
 npm install
-browserify client_jsoneditor.js -o static/sharedb.js
+browserify node_modules/sharedb/lib/client/index.js --standalone sharedb > static/sharedb.js
 ```
-
 Run the server `node server.js` and open multiple browsers/tabs that point to
 `http://localhost:8080/jsoneditor.html`
 
